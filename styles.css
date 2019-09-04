@@ -1,0 +1,30 @@
+h1 {
+    font-size: 25pt;
+    margin: auto;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 1.5cm;
+}
+.box {
+    height: 15cm ;
+    width: 30cm;
+    background-color: black;
+    margin: auto;
+}
+.btns {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+}
+textarea {
+    margin-left: 10cm;
+    margin-top: 0.3cm;
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Palatino;
+    
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="box">
+    <h1> Feedback </h1>  
+    <div class="btns">
+        <button id="b" onclick=Bold()> B </button>
+        <button id="I" onclick=italique()> I </button>
+        <button id="U" onclick=underline()> Underline </button>
+        <SELECT id="taille" size="1" onchange=changesize()>
+            <OPTION  value= "12pt"> 12 pt </OPTION>
+            <OPTION value="18pt" > 18 pt </OPTION>
+            <OPTION value="20pt"> 20 pt</OPTION>
+        </SELECT>
+            <SELECT id="font" name="font" size="1" onchange=changefont()>
+                <OPTION value="platino"> Palatino</OPTION>
+                <OPTION value="cursive"> cursive</OPTION>
+            </SELECT>
+    </div> 
+    <textarea cols="40" rows="10" id="texto"> </textarea>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
